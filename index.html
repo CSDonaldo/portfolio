@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/fad959d9f4.js" crossorigin="anonymous"></script>
+       
+</head>
+<body>
+  
+  <div id="header">
+   <div class="container">
+      <nav>
+        <p id="txt1"><span>D</span>onaldo.</p>
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>WEB Developer</p>
+        <h1>Hi, I'm <span>Donaldo CS</span></h1>
+      </div>
+    </div>
+  </div>
+
+  <!-- -----ABOUT SESSION ----- -->
+
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/image2.jpg" alt="">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>Entry level Web Developer | HTML, CSS, JavaScript Enthusiast <br>
+            Who widely express my Ideas and Hardwork through the projects<br>
+            Front-End developer Skilled in conceptualizing, designing, development, <br>
+            and deployingsoftware containing logical and mathematical solutions 
+          </p>
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+          <p class="tab-links" onclick="opentab('education')">Education</p>
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+          <ul>
+            <li><span>WEB Dveloper</span><br>Web app Development</li>
+          </ul>
+          <h2>Languages</h2>
+          <i class="fa-brands fa-html5 fa-2xl"><span> HTML</span></i> <br> 
+          <i class="fa-brands fa-css3-alt fa-2xl"><span> CSS</span></i> <br>
+          <i class="fa-brands fa-js fa-2xl"><span> JAVASCRIPT</span></i> <br>
+          <h2>frame Work</h2>
+          <i class="fa-brands fa-react fa-2xl"><span> REACT</span></i>
+        </div>
+        <div class="tab-contents" id="education">
+          <h2>Degree Holder <br> FrontEnd developer</h2>
+          <i class="fa-solid fa-school" id="icon1"><span id="span1"> HIGHER STUDIES</span></i>
+          <ul>
+            <li><span>2020</span> <br>Maths Biology with 70%</li>
+          </ul>
+          <i class="fa-solid fa-graduation-cap" id="icon1"><span id="span1"> GRADUATION</span></i>
+          <ul>
+            <li><span>2020 - 2023</span> <br>B.Sc Comp Sci in MC University</li>
+          </ul>
+          
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ---------services--------- -->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="service-list">
+         <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Web Design</h2>
+          <p>We built all types of responsive sites like
+              eCommerce websites, Business websites, Blog Websites, 
+              Personal Websites, Portfolio Websites, Event Websites 
+              in the affordable package on your suggessions and ideas  </p>
+          <a href="#">Learn more</a>
+        </div>
+         <div>
+          <i class="fa-solid fa-globe"></i>
+          <h2>Online Forums</h2>
+          <p>Contects online webinar on web development and guide 
+            them through the webinar motivate them to create their own 
+            responsive website of their need and encorange them to became a 
+            developer in the offordable package </p>
+          <a href="#">Learn more</a>
+        </div>
+         <div>
+          <i class="fa-solid fa-wand-magic-sparkles"></i>
+          <h2>Photo Editing</h2>
+          <p>I am quit in basic level of the photoshop skills but aware to know 
+            the basic level of editings grading masking cloning etc the photos of mine you 
+          guys see in this website is edited myself because of the only thing dont depend on others</p>
+          <a href="#">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- ----------Portfolio------- -->
+    <div id="portfolio">
+      <div class="container">
+       <h1 class="sub-title">My Work</h1>
+       <div class="work-list">
+        <div class="work">
+          <img src="images/work-1.png">
+            <div class="layer">
+              <h3>Social media Websites</h3>
+              <p>This site Enables you to connect with the people around the world </p>
+              <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+          <img src="images/work-2.png" >
+          <div class="layer">
+            <h3>Music Websites</h3>
+            <p>You can listen to your music and download it from the huge collection of the albums </p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/work-3.png" >
+          <div class="layer">
+            <h3>Online Websites</h3>
+            <p>This websites helps you to choose your products on your thought with out moving anywhere</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+       </div>
+       <a href="#" class="btn">See More</a>
+      </div>
+    </div>
+    <!-- ------------contact---------- -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <address><i class="fa-solid fa-paper-plane"></i>donaldod979@gmail.com</address>
+            <address><i class="fa-solid fa-square-phone"></i>7806872557</address>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/donaldo-c-s/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://m.facebook.com/" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+              <a href="https://github.com/" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+            </div>
+            <a href="Resume.pdf" download class="btn btn2">Download Resume</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="Email" placeholder="Your Email" required>
+              <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+
+          </div>
+        </div>
+      </div>
+      <div class="copy-right">
+        <p>Copyright &#169 Donaldo.</p>
+      </div>
+    </div>
+
+
+  <script>
+    // About session
+    var tablinks= document.getElementsByClassName("tab-links")
+    var tabcontents= document.getElementsByClassName("tab-contents")
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+
+    //sidebar
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+      sidemenu.style.right="0";
+      
+    }
+    function closemenu(){
+      sidemenu.style.right="-130px";
+    }
+
+  </script>
+  
+  <!-- form  -->
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzWX1OpXfAwMfi49DLUYDXotexdVKVyRdDK5DTTkNB6WnNt387X5nBEBFxrV_XiOi-r/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+          msg.innerHTML = "Message sent successfully"
+          setTimeout(function(){
+            msg.innerHTML = " "
+          },3000)
+          form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
+
